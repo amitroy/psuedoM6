@@ -1,0 +1,19 @@
+{
+  "name": "psuedom6",
+  "version": "1.0.0",
+  "description": "This is a mock application that resembles the HK Mark6 Lottery Draw",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./tests/ --exit",
+    "start": "npm test && node server.js"
+  },
+  "author": "Amit Roy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
+  }
+}
